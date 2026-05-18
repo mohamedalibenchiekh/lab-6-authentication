@@ -153,7 +153,7 @@ mongod --version
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/event-api.git
+git clone https://github.com/mohamedalibenchiekh/lab-6-authentication
 
 # Navigate to project directory
 cd event-api

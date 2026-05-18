@@ -16,7 +16,7 @@ jobs:
         image: mongo:6.0
         ports:
           - 27017:27017
-        command: ["mongod", "--bind_ip_all"]
+        command: mongod --bind_ip_all
         env:
           MONGO_INITDB_DATABASE: event-manager
     env:
